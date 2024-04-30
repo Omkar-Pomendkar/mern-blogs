@@ -21,3 +21,5 @@ connect with username password ad collections
 16) add .env file in gitignore 
 17) Create user Model
 18) And at the end add timestamp true
+19) Now create a test api route
+20) 
