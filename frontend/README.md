@@ -19,3 +19,5 @@ connect with username password ad collections
 14) install dotenv package
 15) import dotenv and configure it
 16) add .env file in gitignore 
+17) Create user Model
+18) And at the end add timestamp true
