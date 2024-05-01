@@ -25,3 +25,7 @@ connect with username password ad collections
 20) Create routes and controllers to write function Logic don't forget to import it routes folder
 and then also import it in app.js
 21) Signup API Route
+22) Exported user and added it into database
+23) making use of try and catch to handle error
+24) Now we will hash the password in the database
+25) NOw we are making use of middleware to check the errors
