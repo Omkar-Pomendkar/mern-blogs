@@ -28,4 +28,6 @@ and then also import it in app.js
 22) Exported user and added it into database
 23) making use of try and catch to handle error
 24) Now we will hash the password in the database
-25) NOw we are making use of middleware to check the errors
+25) NOw we are making use of middleware functions to check the errors
+26) I have not added middleware in the 
+27) Creating Sign up  Page UI

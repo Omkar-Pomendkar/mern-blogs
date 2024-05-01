@@ -35,3 +35,9 @@ app.use('/api/auth',authRoutes);
 // })
 
 // app.listen(3000)
+
+
+// if we want to go to next middleware we will use it
+// app.use((err,req,res,next)=>{
+
+// })
