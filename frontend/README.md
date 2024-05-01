@@ -31,3 +31,9 @@ and then also import it in app.js
 25) NOw we are making use of middleware functions to check the errors
 26) I have not added middleware in the 
 27) Creating Sign up  Page UI
+28) Add functionality page to UI
+29) Now create a state with empty object 
+30) Add PROXY in Vite
+31) Create a State for FOrm Data
+32) Create a State for Error
+33) Create a State for Loading

@@ -20,6 +20,7 @@ mongoose.connect(process.env.MONGO)
 
 app.use(express.json());
 
+
 app.listen(3000, ()=> {
     console.log("Server is running on port 3000!!")
 });
@@ -38,6 +39,16 @@ app.use('/api/auth',authRoutes);
 
 
 // if we want to go to next middleware we will use it
-// app.use((err,req,res,next)=>{
+app.use((err,req,res,next)=>{
+    const status = err.status || 500;
+    const message = err.message || "INternal Server Error";
 
-// })
+    res.status(status).json({
+        success:false,
+        statusCode,
+        message
+    })
+
+
+
+});
