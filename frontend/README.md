@@ -22,4 +22,6 @@ connect with username password ad collections
 17) Create user Model
 18) And at the end add timestamp true
 19) Now create a test api route
-20) 
+20) Create routes and controllers to write function Logic don't forget to import it routes folder
+and then also import it in app.js
+21) Signup API Route
